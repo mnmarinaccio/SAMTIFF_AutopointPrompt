@@ -51,9 +51,9 @@ For the examples, open the notebook in Jupyter and run all cells <br />
 jupyter notebook SAM_TIFF_AutopointLocator.ipynb
 
 ## License
-This project is licensed under the Apache 2.0 License. See the LICENSE file for details.
+This repository is licensed under [CC BY-NC 4.0](LICENSE).
 
-If you use these tools in your project, please cite this repository and the paper the tools were made for
+If you use these tools in your project, please cite this repository and the paper the tools were made for.
 
 @misc{marinaccio2025seeing,
     title={Seeing Heat with Color -- RGB-Only Wildfire Temperature Inference from SAM-Guided Multimodal Distillation using Radiometric Ground Truth},
@@ -62,4 +62,16 @@ If you use these tools in your project, please cite this repository and the pape
     eprint={2505.01638},
     archivePrefix={arXiv},
     primaryClass={eess.IV}
+}
+
+Credit to Meta AI [Segment Anything Model](https://github.com/mnmarinaccio/FLAME3_ThresholdingUtils) and [Paper](https://arxiv.org/abs/2304.02643)
+
+@misc{kirillov2023segment,
+      title={Segment Anything}, 
+      author={Alexander Kirillov and Eric Mintun and Nikhila Ravi and Hanzi Mao and Chloe Rolland and Laura Gustafson and Tete Xiao and Spencer Whitehead and Alexander C. Berg and Wan-Yen Lo and Piotr Dollár and Ross Girshick},
+      year={2023},
+      eprint={2304.02643},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2304.02643}, 
 }
