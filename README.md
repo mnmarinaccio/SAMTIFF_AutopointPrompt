@@ -12,12 +12,17 @@ This pipeline was developed by [Michael Marinaccio](https://github.com/mnmarinac
 ## Table of Contents
 - [SAM-TIFF Pseudo Label Mask Generation and Autopoint Prompt Generation](#sam-tiff-pseudo-label-mask-generation-and-autopoint-prompt-generation)
   - [Table of Contents](#table-of-contents)
+  - [How It Works](#how-it-works)
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
 
 ---
+
+## How It Works
+
+The example Jupyter Notebook provided will work with the sample folder structure and sample images provided in this repository. However, if experimenting with your own images or with other FLAME 3 images, please make sure to run generate Otsu Masks and calibrate the TIFF files and Thermal JPGs using the tools found in the FLAME 3 Thresholding Utils Repository [here](https://github.com/mnmarinaccio/FLAME3_ThresholdingUtils).
 
 ## Requirements
 - numpy==1.24.4
