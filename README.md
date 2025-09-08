@@ -64,7 +64,7 @@ If you use these tools in your project, please cite this repository and the pape
     primaryClass={eess.IV}
 }
 
-Credit to Meta AI [Segment Anything Model](https://github.com/mnmarinaccio/FLAME3_ThresholdingUtils) and [Paper](https://arxiv.org/abs/2304.02643)
+Credit to Meta AI [Segment Anything Model](https://github.com/facebookresearch/segment-anything) and [Paper](https://arxiv.org/abs/2304.02643)
 
 @misc{kirillov2023segment,
       title={Segment Anything}, 
