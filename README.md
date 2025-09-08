@@ -25,10 +25,14 @@ This pipeline was developed by [Michael Marinaccio](https://github.com/mnmarinac
 The example Jupyter Notebook provided will work with the sample folder structure and sample images provided in this repository. However, if experimenting with your own images or with other FLAME 3 images, please make sure to run generate Otsu Masks and calibrate the TIFF files and Thermal JPGs using the tools found in the FLAME 3 Thresholding Utils Repository [here](https://github.com/mnmarinaccio/FLAME3_ThresholdingUtils).
 
 ## Requirements
+Python 3.8.20 was used for this implementation
+
 - numpy==1.24.4
 - torch==2.4.1
 - matplotlib==3.7.5
 - pandas==2.0.3
+- pillow==10.4.0
+- tqdm==4.67.1
 - opencv-python==4.11.0.86
 - scipy==1.10.0
 - scikit-image==0.21.0
