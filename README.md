@@ -1,7 +1,7 @@
 # SAM-TIFF Pseudo Label Mask Generation and Autopoint Prompt Generation
 This repository shows the implementation from SAM-TIFF, where pseudo label masks are created using a hybrid approach of Meta AI's Segment Anything Model (SAM)-guided mask generation, and selection via TOPSIS, along with Canny edge detection and Otsu’s thresholding pipeline for automatic point prompt selection. 
 
-This pipeline was developed by [Michael Marinaccio](https://github.com/mnmarinaccio) and used for work from the [SAM-TIFF Paper](https://arxiv.org/abs/2505.01638). The implementation for SAM-TIFF is found [here](https://arxiv.org/abs/2505.01638).
+This pipeline was developed by [Michael Marinaccio](https://github.com/mnmarinaccio) and used for work from the [SAM-TIFF Paper](https://arxiv.org/abs/2505.01638). The implementation for SAM-TIFF is found [here](https://github.com/mnmarinaccio/SAM-TIFF).
 
 <p align="center">
   <img src="readme_images/samtiff_autopoint.PNG" alt="SAM-TIFF Autopoint Prompt Locator" />
